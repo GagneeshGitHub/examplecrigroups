@@ -1,0 +1,66 @@
+.main-division{
+    margin: 0%;
+    padding: 0%;
+    width: 95%;
+    height: 200vh;
+}
+
+.inner-first{
+    display: flex;
+}
+
+#award{
+    width: 30%;
+}
+
+.right-div{
+    width: 70%;
+}
+
+.inner-second{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.inner-second img{
+    width: 100%;
+    max-width: 100%;
+}
+
+.inner-second hr{
+    width: 80%;
+    border-color: red;
+}
+
+#btm-para{
+    width: 80%;
+}
+
+@media (max-width: 1024px){
+    .main-division{
+        height: 270vh;
+    }
+
+    .inner-first{
+        flex-direction: column;
+    }
+
+    #award{
+        width: 100%;
+    }
+
+    .right-div{
+        width: 100%;
+        padding-left: 10px;
+    }
+
+    .right-div img{
+        width: 100%;
+    }
+
+    .inner-second{
+        width: 100%;
+        padding-left: 10px;
+    }
+}
