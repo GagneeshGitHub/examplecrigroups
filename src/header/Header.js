@@ -4,7 +4,7 @@ import logo from '../asserts/logo.png'
 
 export default function Header() {
   return (
-    <div className='header'>
+    <div className='header' alt='logoimage'>
         <img src={logo}/>
     </div>
   )
